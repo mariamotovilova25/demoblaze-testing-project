@@ -1,29 +1,64 @@
 # demoblaze-testing-project
-This project contains manual testing documentation for the Demoblaze website.
+## Project Overview
+This project demonstrates manual testing of the Demoblaze e-commerce web application.
 
-## Scope
-Testing of core e-commerce functionality:
-- Homepage
-- Product page
-- Cart
-- Authentication (Login/Signup)
+The goal was to simulate real QA workflow, including test documentation and bug reporting.
+
+---
+
+## Scope of Testing
+The following features were tested:
+
+- Homepage (UI, navigation, product display)
+- Product page (details, images, pricing)
+- Cart functionality (add/remove/update items)
+- User authentication (login & signup)
 - Checkout process
 
+---
+
 ## Test Documentation
-- Test Plan
-- Checklist (30+ scenarios)
-- Test Cases (20+ test cases)
-- Bug Reports (6+ bugs)
 
-## Tools Used
-- Manual testing
-- Chrome DevTools
-- Excel / Google Sheets
+This project includes:
 
-## Summary
-During testing, several functional issues were identified, including:
-- Missing validation
-- Incorrect cart behavior
-- UI inconsistencies
+- Test Plan  
+- Checklist (30+ test scenarios)  
+- Test Cases (20+ detailed test cases)  
+- Bug Reports (6+ identified issues)  
 
-This project demonstrates practical skills in software testing and QA documentation.
+---
+
+## Example Bugs Found
+
+Some of the issues discovered during testing:
+
+- User can place an order with an empty cart  
+- No validation for empty login fields  
+- No clear error message for invalid credentials  
+- Product is not immediately reflected in cart  
+
+---
+
+## Tools & Technologies
+
+- Manual testing  
+- Chrome DevTools  
+- Google Sheets / Excel  
+
+---
+
+## Key Skills Demonstrated
+
+- Test case design  
+- Bug reporting  
+- Functional testing  
+- Exploratory testing  
+- Understanding of SDLC & STLC  
+
+---
+
+## Conclusion
+
+This project reflects hands-on experience in manual testing, including writing structured test documentation and identifying functional defects.
+
+It simulates real-world QA processes and demonstrates readiness for a Junior QA Engineer role.
